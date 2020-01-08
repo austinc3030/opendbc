@@ -37,16 +37,16 @@ BU_: XXX t _ e f S c a I i
 
 
 BO_ 1394 ZAS_1: 2 XXX
- SG_ Fehlerspeichereintrag__ZAS_ : 15|1@1+ (1,0) [0|0] "" XXX
- SG_ Frei_ZAS_1_3 : 8|7@1+ (1,0) [0|0] "" XXX
- SG_ Frei_ZAS_1_2 : 7|1@1+ (1,0) [0|0] "" XXX
- SG_ Klemme_15_SV : 6|1@1+ (1,0) [0|0] "" XXX
- SG_ Frei_ZAS_1_1 : 5|1@1+ (1,0) [0|0] "" XXX
- SG_ Klemme_P__Parklichtstellung_ : 4|1@1+ (1,0) [0|0] "" XXX
- SG_ Klemme_50__Starten_ : 3|1@1+ (1,0) [0|0] "" XXX
- SG_ Klemme_X__Startvorgang_ : 2|1@1+ (1,0) [0|0] "" XXX
- SG_ Klemme_15__Z_ndung_ein_ : 1|1@1+ (1,0) [0|0] "" XXX
- SG_ S_Kontakt__Schl_ssel_steckt_ : 0|1@1+ (1,0) [0|0] "" XXX
+ SG_ Fault_Memory_Entry__ZAS_ : 15|1@1+ (1,0) [0|0] "" XXX
+ SG_ Free_ZAS_1_3 : 8|7@1+ (1,0) [0|0] "" XXX
+ SG_ Free_ZAS_1_2 : 7|1@1+ (1,0) [0|0] "" XXX
+ SG_ Terminal_15_SV : 6|1@1+ (1,0) [0|0] "" XXX
+ SG_ Free_ZAS_1_1 : 5|1@1+ (1,0) [0|0] "" XXX
+ SG_ Terminal_P__Parking_Light_Position_ : 4|1@1+ (1,0) [0|0] "" XXX
+ SG_ Terminal_50__Start_ : 3|1@1+ (1,0) [0|0] "" XXX
+ SG_ Terminal_X__Start_Process_ : 2|1@1+ (1,0) [0|0] "" XXX
+ SG_ Terminal_15__Ignition_On_ : 1|1@1+ (1,0) [0|0] "" XXX
+ SG_ S_Contact_Key_Is_Inserted_ : 0|1@1+ (1,0) [0|0] "" XXX
 
 BO_ 1336 Wischer_1: 2 XXX
  SG_ Blockierung_Heckwischer_erkannt : 15|1@1+ (1,0) [0|0] "" XXX
