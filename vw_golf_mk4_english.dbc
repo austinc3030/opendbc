@@ -141,80 +141,80 @@ BO_ 1496 Installation_List_1: 8 XXX
  SG_ Engine_Control_Unit : 0|1@1+ (1,0) [0|0] "" XXX
 
 BO_ 1488 Systeminfo_1: 6 XXX
- SG_ CAN_Stand_4_1_Antrieb_Daten_Hau : 44|4@1+ (1,0) [0|15] "" XXX
- SG_ CAN_Stand_4_1_Antrieb_Daten_Neb : 40|4@1+ (1,0) [0|15] "" XXX
- SG_ CAN_Stand_4_1_Komfort_Daten_Hau : 36|4@1+ (1,0) [0|15] "" XXX
- SG_ CAN_Stand_4_1_Komfort_Daten_Neb : 32|4@1+ (1,0) [0|15] "" XXX
- SG_ Frei_Systeminfo_1_6 : 30|1@1+ (1,0) [0|0] "" XXX
- SG_ Viertuerer : 29|1@1+ (1,0) [0|0] "" XXX
- SG_ Rechtslenker : 28|1@1+ (1,0) [0|0] "" XXX
- SG_ Fahrzeug_Index : 24|4@1+ (1,0) [0|0] "" XXX
- SG_ Fahrzeug_Generation : 20|4@1+ (1,0) [0|15] "" XXX
- SG_ Fahrzeug_Derivat : 16|4@1+ (1,0) [0|15] "" XXX
- SG_ Fahrzeug_Marke_2 : 12|4@1+ (1,0) [0|15] "" XXX
- SG_ Fahrzeug_Klasse : 8|4@1+ (1,0) [0|15] "" XXX
- SG_ Verbauinformation_gueltig : 7|1@1+ (1,0) [0|0] "" XXX
- SG_ CAN_Infotainment_verbaut : 6|1@1+ (1,0) [0|0] "" XXX
- SG_ CAN_Infotainment_in_Diagnose : 5|1@1+ (1,0) [0|0] "" XXX
+ SG_ CAN_Stand_4_1_Drive_Data_Hau : 44|4@1+ (1,0) [0|15] "" XXX
+ SG_ CAN_Stand_4_1_Drive_Data_Neb : 40|4@1+ (1,0) [0|15] "" XXX
+ SG_ CAN_Stand_4_1_Comfort_Data_Hau : 36|4@1+ (1,0) [0|15] "" XXX
+ SG_ CAN_Stand_4_1_Comfort_Data_Neb : 32|4@1+ (1,0) [0|15] "" XXX
+ SG_ Free_System_Info_1_6 : 30|1@1+ (1,0) [0|0] "" XXX
+ SG_ Four_Day : 29|1@1+ (1,0) [0|0] "" XXX
+ SG_ Right_Hand_Drive : 28|1@1+ (1,0) [0|0] "" XXX
+ SG_ Vehicle_Index : 24|4@1+ (1,0) [0|0] "" XXX
+ SG_ Vehicle_Generation : 20|4@1+ (1,0) [0|15] "" XXX
+ SG_ Vehicle_Derivative : 16|4@1+ (1,0) [0|15] "" XXX
+ SG_ Vehicle_Brand_2 : 12|4@1+ (1,0) [0|15] "" XXX
+ SG_ Vehicle_Class : 8|4@1+ (1,0) [0|15] "" XXX
+ SG_ Installation_Information_Valid : 7|1@1+ (1,0) [0|0] "" XXX
+ SG_ CAN_Infotainment_Installed : 6|1@1+ (1,0) [0|0] "" XXX
+ SG_ CAN_Infotainment_In_Diagnosis : 5|1@1+ (1,0) [0|0] "" XXX
  SG_ Sleep_CAN_Infotainment : 4|1@1+ (1,0) [0|0] "" XXX
- SG_ CAN_Komfort_in_Diagnose : 3|1@1+ (1,0) [0|0] "" XXX
- SG_ Sleep_CAN_Komfort : 2|1@1+ (1,0) [0|0] "" XXX
- SG_ CAN_Antrieb_in_Diagnose : 1|1@1+ (1,0) [0|0] "" XXX
- SG_ CAN_Extern_zugeschaltet : 0|1@1+ (1,0) [0|0] "" XXX
+ SG_ CAN_Comfort_In_Diagnosis : 3|1@1+ (1,0) [0|0] "" XXX
+ SG_ Sleep_CAN_Comfort : 2|1@1+ (1,0) [0|0] "" XXX
+ SG_ CAN_Drive_in_Diagnose : 1|1@1+ (1,0) [0|0] "" XXX
+ SG_ CAN_External_Connected : 0|1@1+ (1,0) [0|0] "" XXX
 
 BO_ 268 Slave_1: 8 XXX
- SG_ Delta_reduziertes_Sollmoment : 48|1@1+ (1,0) [0|0] "" XXX
- SG_ Delta_Drosselklappenwinkel : 32|16@1+ (1,0) [0|0] "" XXX
- SG_ Frei_Slave_1_1 : 25|7@1+ (1,0) [0|0] "" XXX
- SG_ Delta_Zuendwinkelausgabe : 24|1@1+ (1,0) [0|0] "" XXX
+ SG_ Delta_Reduced_Target_Torque : 48|1@1+ (1,0) [0|0] "" XXX
+ SG_ Delta_Throttle_Angle : 32|16@1+ (1,0) [0|0] "" XXX
+ SG_ Free_Slave_1_1 : 25|7@1+ (1,0) [0|0] "" XXX
+ SG_ Delta_Firing_Angle_Output : 24|1@1+ (1,0) [0|0] "" XXX
  SG_ Ubat_Freigabe_DVE__Slave_ : 23|1@1+ (1,0) [0|0] "" XXX
- SG_ Drosselklappe_Sollwertbegrenzun : 22|1@1+ (1,0) [0|0] "" XXX
- SG_ Einspritzverbot_lernen__Slave_ : 21|1@1+ (1,0) [0|0] "" XXX
- SG_ Master_erkannt__Slave_ : 20|1@1+ (1,0) [0|0] "" XXX
- SG_ Fehler_Momentenausgabe : 19|1@1+ (1,0) [0|0] "" XXX
- SG_ Fehler_Getriebe_Moment : 18|1@1+ (1,0) [0|0] "" XXX
- SG_ Fehler_Bremsenbotschaft : 17|1@1+ (1,0) [0|0] "" XXX
- SG_ Indiziertes_Istmoment__Slave_ : 0|16@1+ (0.0015259,0) [0|99.998] "%" XXX
- SG_ Timeout_Bremsenbotschaft : 0|1@1+ (1,0) [0|0] "" XXX
+ SG_ Throttle_Valve_Setpoint_Limitation : 22|1@1+ (1,0) [0|0] "" XXX
+ SG_ Injection_Ban_Learn_Slave : 21|1@1+ (1,0) [0|0] "" XXX
+ SG_ Master_Recognized__Slave_ : 20|1@1+ (1,0) [0|0] "" XXX
+ SG_ Moment_Output_Error : 19|1@1+ (1,0) [0|0] "" XXX
+ SG_ Gearbox_Torque_Error : 18|1@1+ (1,0) [0|0] "" XXX
+ SG_ Brake_Message_Error : 17|1@1+ (1,0) [0|0] "" XXX
+ SG_ Indexed_Actual_Torque_Slave : 0|16@1+ (0.0015259,0) [0|99.998] "%" XXX
+ SG_ Brake_Message_Timeout : 0|1@1+ (1,0) [0|0] "" XXX
 
-BO_ 1332 Sitz_info: 2 XXX
- SG_ Positionserkennung_Beifahrersit : 15|1@1+ (1,0) [0|0] "" XXX
- SG_ Beifahrersitz_im_vorderen_Dritt : 14|1@1+ (1,0) [0|0] "" XXX
- SG_ Positionserkennung_Fahrersitz_u : 13|1@1+ (1,0) [0|0] "" XXX
- SG_ Fahrersitz_im_vorderen_Drittel : 12|1@1+ (1,0) [0|0] "" XXX
- SG_ Zaehler_Sitzinfo : 8|4@1+ (1,0) [0|15] "" XXX
- SG_ Checksumme_Sitzinfo : 0|8@1+ (1,0) [0|0] "" XXX
+BO_ 1332 Seat_Info: 2 XXX
+ SG_ Position_Detection_Passenger_Seat : 15|1@1+ (1,0) [0|0] "" XXX
+ SG_ Passenger_Seat_In_The_Front_Third : 14|1@1+ (1,0) [0|0] "" XXX
+ SG_ Position_Detection_Driver_Seat : 13|1@1+ (1,0) [0|0] "" XXX
+ SG_ Driver_Seat_In_The_Front_Third : 12|1@1+ (1,0) [0|0] "" XXX
+ SG_ Counter_Seat_Info : 8|4@1+ (1,0) [0|15] "" XXX
+ SG_ Checksum_Seat_Info : 0|8@1+ (1,0) [0|0] "" XXX
 
 BO_ 1810 PSG_3: 2 XXX
- SG_ Selbsttestergebnis : 0|16@1+ (1,0) [0|0] "" XXX
+ SG_ Self_Test_Result : 0|16@1+ (1,0) [0|0] "" XXX
 
 BO_ 1298 PSG_2: 8 XXX
- SG_ RAM_Inhalt_4 : 48|16@1+ (1,0) [0|0] "" XXX
- SG_ RAM_Inhalt_3 : 32|16@1+ (1,0) [0|0] "" XXX
- SG_ RAM_Inhalt_2 : 16|16@1+ (1,0) [0|0] "" XXX
- SG_ RAM_Inhalt_1 : 0|16@1+ (1,0) [0|0] "" XXX
+ SG_ RAM_Content_4 : 48|16@1+ (1,0) [0|0] "" XXX
+ SG_ RAM_Content_3 : 32|16@1+ (1,0) [0|0] "" XXX
+ SG_ RAM_Content_2 : 16|16@1+ (1,0) [0|0] "" XXX
+ SG_ RAM_Content_1 : 0|16@1+ (1,0) [0|0] "" XXX
 
 BO_ 274 PSG_1: 8 XXX
- SG_ Pumpentemperatur__2_1_ : 48|16@1+ (0.0625,0) [0|4096] "K" XXX
- SG_ Pumpentemperatur__3_2_2_ : 44|12@1+ (1,0) [0|0] "" XXX
- SG_ Zylinderzaehler__3_2_2_ : 43|3@1+ (1,0) [1|8] "Zaehler" XXX
- SG_ Ansteuerdauer__3_2_2_ : 32|11@1+ (0.0469,0) [0|96] "NW" XXX
- SG_ Nockenwellendrehzahl__3_2_2_ : 20|12@1+ (4,0) [0|16380] "upm" XXX
- SG_ Pumpen_Statuswort__3_2_2_ : 0|20@1+ (1,0) [0|0] "" XXX
+ SG_ Pump_Temperature__2_1_ : 48|16@1+ (0.0625,0) [0|4096] "K" XXX
+ SG_ Pump_Temperature__3_2_2_ : 44|12@1+ (1,0) [0|0] "" XXX
+ SG_ Cylinder_Counter__3_2_2_ : 43|3@1+ (1,0) [1|8] "Zaehler" XXX
+ SG_ Control_Period__3_2_2_ : 32|11@1+ (0.0469,0) [0|96] "NW" XXX
+ SG_ Camshaft_Speed__3_2_2_ : 20|12@1+ (4,0) [0|16380] "upm" XXX
+ SG_ Pump_Status : 0|20@1+ (1,0) [0|0] "" XXX
 
 BO_ 1300 NOX_1: 8 XXX
- SG_ OBD_fuer_NOX : 56|8@1+ (1,0) [0|0] "" XXX
- SG_ Frei_NOX1_4 : 53|3@1+ (1,0) [0|0] "" XXX
+ SG_ OBD_For_NOX : 56|8@1+ (1,0) [0|0] "" XXX
+ SG_ Free_NOX1_4 : 53|3@1+ (1,0) [0|0] "" XXX
  SG_ IP2 : 52|1@1+ (1,0) [0|0] "" XXX
  SG_ IP1 : 51|1@1+ (1,0) [0|0] "" XXX
  SG_ IP0 : 50|1@1+ (1,0) [0|0] "" XXX
- SG_ Sondenheizung_NOX : 49|1@1+ (1,0) [0|0] "" XXX
- SG_ Offsetkorrektur_NOX : 48|1@1+ (1,0) [0|0] "" XXX
- SG_ Frei_NOX1_3 : 43|5@1+ (1,0) [0|0] "" XXX
- SG_ Sauerstoff_binaer : 32|11@1+ (1,-200) [-200|1847] "mV" XXX
- SG_ Frei_NOX1_2 : 27|5@1+ (1,0) [0|0] "" XXX
- SG_ Sauerstoff_linear : 16|11@1+ (1,0) [0|2047] "1000/Lambd" XXX
- SG_ Frei_NOX1_1 : 11|5@1+ (1,0) [0|0] "" XXX
+ SG_ Probe_Heating_NOX : 49|1@1+ (1,0) [0|0] "" XXX
+ SG_ Offset_Correction_NOX : 48|1@1+ (1,0) [0|0] "" XXX
+ SG_ Free_NOX1_3 : 43|5@1+ (1,0) [0|0] "" XXX
+ SG_ Oxygen_Binary : 32|11@1+ (1,-200) [-200|1847] "mV" XXX
+ SG_ Free_NOX1_2 : 27|5@1+ (1,0) [0|0] "" XXX
+ SG_ Linear_Oxygen : 16|11@1+ (1,0) [0|2047] "1000/Lambd" XXX
+ SG_ Free_NOX1_1 : 11|5@1+ (1,0) [0|0] "" XXX
  SG_ NOX_Signal : 0|11@1+ (1,0) [0|2047] "ppm" XXX
 
 BO_ 1424 Niveau_1: 6 XXX
