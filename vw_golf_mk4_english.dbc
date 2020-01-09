@@ -419,87 +419,87 @@ BO_ 258 Master_1: 8 XXX
  SG_ PD_Share_Of_LLR_Active : 1|1@1+ (1,0) [0|0] "" XXX
  SG_ LLR_Release_After_Start : 0|1@1+ (1,0) [0|0] "" XXX
 
-BO_ 1984 LWS_Kalibrierung: 2 XXX
- SG_ Frei_LWS_Kalibrierung_1_1 : 15|1@1+ (1,0) [0|0] "" XXX
+BO_ 1984 LWS_Calibration: 2 XXX
+ SG_ Free_LWS_Calibration_1_1 : 15|1@1+ (1,0) [0|0] "" XXX
  SG_ LWS_Identifier : 8|7@1+ (1,0) [0|0] "" XXX
- SG_ Frei_LWS_Kalibrierung_1_2 : 4|4@1+ (1,0) [0|0] "" XXX
+ SG_ Free_LWS_Calibration_1_2 : 4|4@1+ (1,0) [0|0] "" XXX
  SG_ Command_Dode_Word : 0|4@1+ (1,0) [0|0] "" XXX
 
-BO_ 1986 Lenkwinkel_Init: 4 XXX
- SG_ Kodierbytes : 8|24@1+ (1,0) [0|0] "" XXX
- SG_ Identiifier_f_r_LWS_Init : 0|8@1+ (1,0) [0|0] "" XXX
+BO_ 1986 Steering_Angle_Init: 4 XXX
+ SG_ Coding_Bytes : 8|24@1+ (1,0) [0|0] "" XXX
+ SG_ Identifier_For_LWS_Init : 0|8@1+ (1,0) [0|0] "" XXX
 
-BO_ 192 Lenkwinkel_1__RB_: 2 XXX
- SG_ Vorzeichen__RB_ : 15|1@1+ (1,0) [0|0] "" XXX
- SG_ Lenkwinkel__RB_ : 5|10@1+ (2.5,-720) [-720|720] "" XXX
+BO_ 192 Steering_Angle_1__RB_: 2 XXX
+ SG_ Sign__RB_ : 15|1@1+ (1,0) [0|0] "" XXX
+ SG_ Steering_Angle__RB_ : 5|10@1+ (2.5,-720) [-720|720] "" XXX
  SG_ LWS_OK__RB_ : 4|1@1+ (1,0) [0|0] "" XXX
- SG_ LWS_Abgleich__RB_ : 3|1@1+ (1,0) [0|0] "" XXX
- SG_ Frei_Lenkwinkel_1_1__RB_ : 2|1@1+ (1,0) [0|0] "" XXX
+ SG_ LWS_Adjustment__RB_ : 3|1@1+ (1,0) [0|0] "" XXX
+ SG_ Free_Steering_Angle_1_1__RB_ : 2|1@1+ (1,0) [0|0] "" XXX
  SG_ FINE_CHECK__RB_ : 1|1@1+ (1,0) [0|0] "" XXX
  SG_ COARSE_CHECK__RB_ : 0|1@1+ (1,0) [0|0] "" XXX
 
-BO_ 196 Lenkwinkel_1__ITT_: 2 XXX
- SG_ Vorzeichen__ITT_ : 15|1@1+ (1,0) [0|0] "" XXX
- SG_ Lenkwinkel__ITT_ : 5|10@1+ (1.5,-768) [-768|766.5] "" XXX
+BO_ 196 Steering_Angle_1__ITT_: 2 XXX
+ SG_ Sign__ITT_ : 15|1@1+ (1,0) [0|0] "" XXX
+ SG_ Steering_Angle__ITT_ : 5|10@1+ (1.5,-768) [-768|766.5] "" XXX
  SG_ LWS_OK : 4|1@1+ (1,0) [0|0] "" XXX
- SG_ LWS_Abgleich__ITT_ : 3|1@1+ (1,0) [0|0] "" XXX
- SG_ LWS_Initialisierung__ITT_ : 2|1@1+ (1,0) [0|0] "" XXX
+ SG_ LWS_Adjustment__ITT_ : 3|1@1+ (1,0) [0|0] "" XXX
+ SG_ LWS_Initialization__ITT_ : 2|1@1+ (1,0) [0|0] "" XXX
  SG_ FINE_CHECK__ITT_ : 1|1@1+ (1,0) [0|0] "" XXX
  SG_ COARSE_CHECK__ITT_ : 0|1@1+ (1,0) [0|0] "" XXX
 
-BO_ 194 Lenkwinkel_1: 8 XXX
- SG_ Checksumme_Lenkwinkel_1 : 56|8@1+ (1,0) [0|0] "" XXX
- SG_ Kodierdaten : 48|8@1+ (1,0) [0|0] "" XXX
- SG_ Zaehler_Lenkwinkel_1 : 44|4@1+ (1,0) [0|15] "" XXX
- SG_ Status_KL30_Ausfall__z_Zt__nur : 43|1@1+ (1,0) [0|0] "" XXX
- SG_ Interner_Status : 41|2@1+ (1,0) [0|0] "" XXX
- SG_ Frei_Lenkwinkel_1_1 : 40|1@1+ (1,0) [0|0] "" XXX
- SG_ Lenkwinkel_ID : 32|8@1+ (1,0) [0|0] "" XXX
- SG_ Lenkradwinkel_Geschwindigkeit_S : 31|1@1+ (1,0) [0|0] "" XXX
- SG_ Lenkradwinkel_Geschwindigkeit : 16|15@1+ (0.04375,0) [0|1433.6] "Grad/Sek" XXX
- SG_ Lenkradwinkel_Sign : 15|1@1+ (1,0) [0|0] "" XXX
- SG_ Lenkradwinkel : 0|15@1+ (0.04375,0) [0|1433.6] "Grad" XXX
+BO_ 194 Steering_Angle_1: 8 XXX
+ SG_ Checksum_Steering_Angle_1 : 56|8@1+ (1,0) [0|0] "" XXX
+ SG_ Encoding_Data : 48|8@1+ (1,0) [0|0] "" XXX
+ SG_ Counter_Steering_Angle : 44|4@1+ (1,0) [0|15] "" XXX
+ SG_ Status_KL30_Failure__Currently__Only : 43|1@1+ (1,0) [0|0] "" XXX
+ SG_ Internal_Status : 41|2@1+ (1,0) [0|0] "" XXX
+ SG_ Free_Steering_Angle_1_1 : 40|1@1+ (1,0) [0|0] "" XXX
+ SG_ Steering_Angle_ID : 32|8@1+ (1,0) [0|0] "" XXX
+ SG_ Steering_Wheel_Angle_Speed_S : 31|1@1+ (1,0) [0|0] "" XXX
+ SG_ Steering_Wheel_Angle_Speed : 16|15@1+ (0.04375,0) [0|1433.6] "Grad/Sek" XXX
+ SG_ Steering_Wheel_Angle_Sign : 15|1@1+ (1,0) [0|0] "" XXX
+ SG_ Steering_Wheel_Angle : 0|15@1+ (0.04375,0) [0|1433.6] "Grad" XXX
 
-BO_ 1502 Lenkhilfe_Fehler: 7 XXX
- SG_ Werkstattcode : 48|8@1+ (1,0) [0|0] "" XXX
+BO_ 1502 Steering_Aid_Error: 7 XXX
+ SG_ Workshop_Code : 48|8@1+ (1,0) [0|0] "" XXX
  SG_ Multiplex_Signal : 45|3@1+ (1,0) [0|7] "" XXX
- SG_ Sensorcodierung_Lenkhilfe : 44|1@1+ (1,0) [0|0] "" XXX
- SG_ Kennliniencodierung_Lenkhilfe : 40|4@1+ (1,0) [0|15] "Kennlinie" XXX
- SG_ Geber_f__Lenkw__Speicher_ausles : 39|1@1+ (1,0) [0|0] "" XXX
- SG_ Kombiinstr__Speicher_auslesen : 38|1@1+ (1,0) [0|0] "" XXX
- SG_ Steuerger__Speicher_auslesen : 37|1@1+ (1,0) [0|0] "" XXX
- SG_ Lenkhilfe_Steuergeraet_defekt : 36|1@1+ (1,0) [0|0] "" XXX
- SG_ Frei_Lenkhilfe_1_3 : 32|4@1+ (1,0) [0|0] "" XXX
- SG_ Frei_Lenkhilfe_1_4 : 30|2@1+ (1,0) [0|0] "" XXX
- SG_ Geber_f__Lenkwi__k__CAN_Komm_sp : 29|1@1+ (1,0) [0|0] "" XXX
- SG_ Geber_f__Lenkwinkel_k__CAN_Komm : 28|1@1+ (1,0) [0|0] "" XXX
+ SG_ Steering_Air_Sendor_Coding : 44|1@1+ (1,0) [0|0] "" XXX
+ SG_ Characteristic_Coding_Of_Steering_Aid : 40|4@1+ (1,0) [0|15] "Kennlinie" XXX
+ SG_ Read_Encoder_From_Steering_Memory : 39|1@1+ (1,0) [0|0] "" XXX
+ SG_ Read_Combi_Instr_Memory : 38|1@1+ (1,0) [0|0] "" XXX
+ SG_ Read_Controller_Memory : 37|1@1+ (1,0) [0|0] "" XXX
+ SG_ Steering_Aid_Control_Unit_Defective : 36|1@1+ (1,0) [0|0] "" XXX
+ SG_ Free_Steering_Aid_1_3 : 32|4@1+ (1,0) [0|0] "" XXX
+ SG_ Free_Steering_Aid_1_4 : 30|2@1+ (1,0) [0|0] "" XXX
+ SG_ Encoder_For_Steering_Wheel_CAN_Comm : 29|1@1+ (1,0) [0|0] "" XXX
+ SG_ Encoder_For_Steering_Angle_CAN_Comm : 28|1@1+ (1,0) [0|0] "" XXX
  SG_ Kombiinstr__k__CAN_Kommunik__sp : 27|1@1+ (1,0) [0|0] "" XXX
- SG_ Kombiinstrument_k__CAN_Kommunik : 26|1@1+ (1,0) [0|0] "" XXX
- SG_ Steuergeraet_k__CAN_Kommunik__S : 25|1@1+ (1,0) [0|0] "" XXX
- SG_ Steuergeraet_keine_CAN_Kommunik : 24|1@1+ (1,0) [0|0] "" XXX
- SG_ Lenkhilfe_Spannung_Ks__nach_Mas : 23|1@1+ (1,0) [0|0] "" XXX
- SG_ Lenkhilfe_Spannung_Ks_nach_Mass : 22|1@1+ (1,0) [0|0] "" XXX
- SG_ Lenkhilfe_Spannung_Ks__nach___s : 21|1@1+ (1,0) [0|0] "" XXX
- SG_ Lenkhilfe_Spannung_Ks__nach__ : 20|1@1+ (1,0) [0|0] "" XXX
- SG_ Lenkhilfe_Temperaturschutz_sp_ : 19|1@1+ (1,0) [0|0] "" XXX
- SG_ Lenkhilfe_Temperaturschutz : 18|1@1+ (1,0) [0|0] "" XXX
- SG_ Lenkhilfe_Betrieb_unpl__Sig__sp : 17|1@1+ (1,0) [0|0] "" XXX
- SG_ Lenkhilfe_Betrieb_unpl__Signal : 16|1@1+ (1,0) [0|0] "" XXX
- SG_ Lenkhilfesensor_k__Kommunik__sp : 15|1@1+ (1,0) [0|0] "" XXX
- SG_ Lenkhilfesensor_keine_Kommunik_ : 14|1@1+ (1,0) [0|0] "" XXX
- SG_ Lenkhilfesensor_defekt_sp_ : 13|1@1+ (1,0) [0|0] "" XXX
- SG_ Lenkhilfesensor_defekt : 12|1@1+ (1,0) [0|0] "" XXX
- SG_ Lenkhilfesensor_Unterbrechung_s : 11|1@1+ (1,0) [0|0] "" XXX
- SG_ Lenkhilfesensor_Unterbrechung : 10|1@1+ (1,0) [0|0] "" XXX
- SG_ Lenkhilfesensor_Ks_nach_Masse_s : 9|1@1+ (1,0) [0|0] "" XXX
- SG_ Lenkhifesensor_Ks_nach_Masse : 8|1@1+ (1,0) [0|0] "" XXX
- SG_ Spannung_Kl_15_zu_klein_sp_ : 7|1@1+ (1,0) [0|0] "" XXX
- SG_ Spannung_Kl_15_zu_klein : 6|1@1+ (1,0) [0|0] "" XXX
- SG_ Frei_Lenkhilfe_1_5 : 4|2@1+ (1,0) [0|0] "" XXX
- SG_ Spannung_Kl_30_zu_klein_sp_ : 3|1@1+ (1,0) [0|0] "" XXX
- SG_ Spannung_Kl_30_zu_klein : 2|1@1+ (1,0) [0|0] "" XXX
- SG_ Spannung_Kl_30_zu_gro__sp_ : 1|1@1+ (1,0) [0|0] "" XXX
- SG_ Spannung_Kl_30_zu_gro_ : 0|1@1+ (1,0) [0|0] "" XXX
+ SG_ Instrument_Cluster_K_CAN_Commuicate : 26|1@1+ (1,0) [0|0] "" XXX
+ SG_ Control_Unit_K_CAN_Communicate_S : 25|1@1+ (1,0) [0|0] "" XXX
+ SG_ Control_Unit_No_CAN_Communicate : 24|1@1+ (1,0) [0|0] "" XXX
+ SG_ Steering_Aid_Tension_Ks_According_To_Mas : 23|1@1+ (1,0) [0|0] "" XXX
+ SG_ Steering_Aid_Tension_Ks_Made_To_Measure : 22|1@1+ (1,0) [0|0] "" XXX
+ SG_ Steering_Aid_Voltage_Ks_According_To_S : 21|1@1+ (1,0) [0|0] "" XXX
+ SG_ Steering_Aid_Tension_Ks_After : 20|1@1+ (1,0) [0|0] "" XXX
+ SG_ Steering_Aid_Temperature_Protection_SP : 19|1@1+ (1,0) [0|0] "" XXX
+ SG_ Steering_Aid_Temperature_Protection : 18|1@1+ (1,0) [0|0] "" XXX
+ SG_ Steering_Aid_Operation_Unpl_Signal_SP : 17|1@1+ (1,0) [0|0] "" XXX
+ SG_ Steering_Aid_Operation_Unpl_Signal : 16|1@1+ (1,0) [0|0] "" XXX
+ SG_ Power_Steering_Sensor_K_Communicate_SP : 15|1@1+ (1,0) [0|0] "" XXX
+ SG_ Power_Steering_Sensor_No_Communication : 14|1@1+ (1,0) [0|0] "" XXX
+ SG_ Steering_Aid_Sensor_Defective_SP : 13|1@1+ (1,0) [0|0] "" XXX
+ SG_ Steering_Aid_Sensor_Defective : 12|1@1+ (1,0) [0|0] "" XXX
+ SG_ Steering_Aid_Sensor_Interruption_S : 11|1@1+ (1,0) [0|0] "" XXX
+ SG_ Steering_Aid_Sensor_Interruption : 10|1@1+ (1,0) [0|0] "" XXX
+ SG_ Steering_Aid_Sensor_Ks_According_To_Mass_S : 9|1@1+ (1,0) [0|0] "" XXX
+ SG_ Steering_Lift_Sensor_Ks_By_Mass : 8|1@1+ (1,0) [0|0] "" XXX
+ SG_ Voltage_Terminal_15_Too_Low_SP : 7|1@1+ (1,0) [0|0] "" XXX
+ SG_ Voltage_Terminal_15_Too_Low : 6|1@1+ (1,0) [0|0] "" XXX
+ SG_ Free_Steering_Aid_1_5 : 4|2@1+ (1,0) [0|0] "" XXX
+ SG_ Voltage_Kl_30_Too_Low_SP_ : 3|1@1+ (1,0) [0|0] "" XXX
+ SG_ Voltage_Kl_30_Too_Low : 2|1@1+ (1,0) [0|0] "" XXX
+ SG_ Voltage_Kl_30_Too_High__sp_ : 1|1@1+ (1,0) [0|0] "" XXX
+ SG_ Voltage_Kl_30_Too_High_ : 0|1@1+ (1,0) [0|0] "" XXX
 
 BO_ 976 Lenkhilfe_1: 2 XXX
  SG_ Fehlerspeichereintrag__Lenkhilf : 15|1@1+ (1,0) [0|0] "" XXX
