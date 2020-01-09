@@ -360,64 +360,64 @@ BO_ 896 Engine_3: 8 XXX
  SG_ Early_Warning : 0|1@1+ (1,0) [0|0] "" XXX
  SG_ Throttle_Valve_Potentiometer : 56|8@1+ (0.4,0) [0|101.6] "%" XXX
 
-BO_ 648 Motor_2: 8 XXX
- SG_ Minimales_Motormoment_bei_Zuend : 56|8@1+ (0.39,0) [0|99] "MDI" XXX
- SG_ Begrenzungsmoment : 48|8@1+ (0.39,0) [0|99] "MDI" XXX
- SG_ Leerlaufsolldrehzahl__Motor_2_ : 40|8@1+ (10,0) [0|2540] "U/min" XXX
- SG_ Soll_Geschwindigkeit_bei_GRA_Be : 32|8@1+ (1.28,0) [0|325] "km/h" XXX
+BO_ 648 Engine_2: 8 XXX
+ SG_ Minimum_Engine_Torque_At_Ignition : 56|8@1+ (0.39,0) [0|99] "MDI" XXX
+ SG_ Limiting_Torque : 48|8@1+ (0.39,0) [0|99] "MDI" XXX
+ SG_ Idle_Target_Speed__Engine_2_ : 40|8@1+ (10,0) [0|2540] "U/min" XXX
+ SG_ Engine_Target_Speed_At_GRA_Be : 32|8@1+ (1.28,0) [0|325] "km/h" XXX
  SG_ GRA_Status : 22|2@1+ (1,0) [0|0] "" XXX
- SG_ OBD_2_freeze_frame : 21|1@1+ (1,0) [0|0] "" XXX
- SG_ Ansteuerung_Klima__4_1_ : 19|1@1+ (1,0) [0|0] "" XXX
- SG_ Fehlerstatus_Kuhlmitteltempera : 18|1@1+ (1,0) [0|0] "" XXX
- SG_ Bremstestschalter : 17|1@1+ (1,0) [0|0] "" XXX
- SG_ Bremslichtschalter : 16|1@1+ (1,0) [0|0] "" XXX
- SG_ Kuehlmitteltemperatur__Motor_2_ : 8|8@1+ (0.75,-48) [-48|142.5] "" XXX
- SG_ Status_Normalbetrieb : 20|1@1+ (1,0) [0|0] "" XXX
- SG_ Fahrzeuggeschwindigkeit : 24|8@1+ (1.28,0) [0|325] "km/h" XXX
+ SG_ OBD_2_Freeze_Frame : 21|1@1+ (1,0) [0|0] "" XXX
+ SG_ Control_Of_Air_Conditioning__4_1_ : 19|1@1+ (1,0) [0|0] "" XXX
+ SG_ Error_Status_Coolant_Temperature : 18|1@1+ (1,0) [0|0] "" XXX
+ SG_ Brake_Test_Switch : 17|1@1+ (1,0) [0|0] "" XXX
+ SG_ Brake_Light_Switch : 16|1@1+ (1,0) [0|0] "" XXX
+ SG_ Coolant_Temperature__Engine_2_ : 8|8@1+ (0.75,-48) [-48|142.5] "" XXX
+ SG_ Status_Normal_Operation : 20|1@1+ (1,0) [0|0] "" XXX
+ SG_ Vehicle_Speed : 24|8@1+ (1.28,0) [0|325] "km/h" XXX
 
-BO_ 640 Motor_1: 8 XXX
- SG_ Fahrerwunschmoment : 56|8@1+ (0.39,0) [0|99] "MDI" XXX
- SG_ mechanisches_Motor_Verlustmomen : 48|8@1+ (0.39,0) [0|99] "MDI" XXX
- SG_ Fahrpedalwert_oder_Drosselklapp : 40|8@1+ (0.4,0) [0|101.6] "%" XXX
- SG_ inneres_Motor_Moment_ohne_exter : 32|8@1+ (0.39,0) [0|99] "MDI" XXX
- SG_ Motordrehzahl : 16|16@1+ (0.25,0) [0|16256] "U/min" XXX
- SG_ inneres_Motor_Moment : 8|8@1+ (0.39,0) [0|99] "MDI" XXX
- SG_ Momentenangaben_ungenau : 7|1@1+ (1,0) [0|0] "" XXX
- SG_ Fehlerstatus_Getriebe_Momentene : 6|1@1+ (1,0) [0|0] "" XXX
- SG_ Fehlerstatus_Brems_Momenteneing : 5|1@1+ (1,0) [0|0] "" XXX
- SG_ Time_Out_Bremsen_Botschaft : 4|1@1+ (1,0) [0|0] "" XXX
- SG_ Kupplungsschalter : 3|1@1+ (1,0) [0|0] "" XXX
- SG_ Kickdownschalter : 2|1@1+ (1,0) [0|0] "" XXX
- SG_ Leergasinformation : 0|1@1+ (1,0) [0|0] "" XXX
+BO_ 640 Engine_1: 8 XXX
+ SG_ Driver_Input_Torque : 56|8@1+ (0.39,0) [0|99] "MDI" XXX
+ SG_ Mechanical_Motor_Torque_Loss : 48|8@1+ (0.39,0) [0|99] "MDI" XXX
+ SG_ Accelerator_Pedal_Value_Or_Throttle_Valve : 40|8@1+ (0.4,0) [0|101.6] "%" XXX
+ SG_ Internal_Motor_Torque_Without_External : 32|8@1+ (0.39,0) [0|99] "MDI" XXX
+ SG_ Engine_Speed : 16|16@1+ (0.25,0) [0|16256] "U/min" XXX
+ SG_ Inner_Motor_Moment : 8|8@1+ (0.39,0) [0|99] "MDI" XXX
+ SG_ Inaccurate_Moments : 7|1@1+ (1,0) [0|0] "" XXX
+ SG_ Error_Status_Gear_Moment : 6|1@1+ (1,0) [0|0] "" XXX
+ SG_ Error_Status_Brake_Torque_Input : 5|1@1+ (1,0) [0|0] "" XXX
+ SG_ Time_Out_Braking_Message : 4|1@1+ (1,0) [0|0] "" XXX
+ SG_ Clutch_Switch : 3|1@1+ (1,0) [0|0] "" XXX
+ SG_ Kickdown_Switch : 2|1@1+ (1,0) [0|0] "" XXX
+ SG_ Empty_Gas_Information : 0|1@1+ (1,0) [0|0] "" XXX
 
 BO_ 262 Master_3: 8 XXX
- SG_ Frei_Master_3_1 : 56|8@1+ (1,0) [0|0] "" XXX
- SG_ Motortemperatur_linearisiert : 48|8@1+ (0.75,-48) [-48|143.25] "" XXX
- SG_ Indiziertes_Sollmoment_f_r_Vmax : 32|16@1+ (0.0015259,0) [0|100] "%" XXX
- SG_ Relative_Momentenanforderung_de : 16|16@1+ (0.003052,0) [0|200] "%" XXX
- SG_ Delta_Motormoment_aus_Verlustmo : 0|16@1+ (0.003052,-100) [-100|100] "%" XXX
+ SG_ Free_Master_3_1 : 56|8@1+ (1,0) [0|0] "" XXX
+ SG_ Motor_Temperature_Linearized : 48|8@1+ (0.75,-48) [-48|143.25] "" XXX
+ SG_ Indexed_Target_Torque_For_Vmax : 32|16@1+ (0.0015259,0) [0|100] "%" XXX
+ SG_ Relative_Torque_Requirement_De : 16|16@1+ (0.003052,0) [0|200] "%" XXX
+ SG_ Delta_Engine_Torque_From_Loss_Mo : 0|16@1+ (0.003052,-100) [-100|100] "%" XXX
 
 BO_ 260 Master_2: 8 XXX
- SG_ Ubat_Freigabe_DVE : 45|1@1+ (1,0) [0|0] "" XXX
- SG_ DK_Sollwertbegrenzung : 44|1@1+ (1,0) [0|0] "" XXX
- SG_ Einspritzverbot_DV_E_lernen : 43|1@1+ (1,0) [0|0] "" XXX
- SG_ Master_erkannt : 42|1@1+ (1,0) [0|0] "" XXX
- SG_ Vmax_Begrenzung_aktiv : 41|1@1+ (1,0) [0|0] "" XXX
- SG_ SA_Verbot_von_FGR : 40|1@1+ (1,0) [0|0] "" XXX
- SG_ Pedalwert_Komplement : 24|16@1+ (1,0) [0|0] "" XXX
- SG_ Zaehler__Master_2_ : 16|8@1+ (1,0) [0|255] "" XXX
- SG_ Normierter_Fahrpedalwinkel : 0|16@1+ (0.001526,0) [0|100] "%" XXX
+ SG_ Ubat_Release_DVE : 45|1@1+ (1,0) [0|0] "" XXX
+ SG_ DK_Setpoint_Limitation : 44|1@1+ (1,0) [0|0] "" XXX
+ SG_ Learn_Injection_Ban_DV_E : 43|1@1+ (1,0) [0|0] "" XXX
+ SG_ Master_Recognized : 42|1@1+ (1,0) [0|0] "" XXX
+ SG_ Vmax_Limitation_Active : 41|1@1+ (1,0) [0|0] "" XXX
+ SG_ SA_Ban_On_FGR : 40|1@1+ (1,0) [0|0] "" XXX
+ SG_ Pedal_Value_Complement : 24|16@1+ (1,0) [0|0] "" XXX
+ SG_ Counter__Master_2 : 16|8@1+ (1,0) [0|255] "" XXX
+ SG_ Standardized_Accelerator_Pedal_Angle : 0|16@1+ (0.001526,0) [0|100] "%" XXX
 
 BO_ 258 Master_1: 8 XXX
- SG_ Stationaere_Solldrehzahl : 56|8@1+ (10,0) [0|2550] "Umin" XXX
+ SG_ Stationary_Target_Speed : 56|8@1+ (10,0) [0|2550] "Umin" XXX
  SG_ Drehmoment_LLR__I_Anteil_ : 40|16@1+ (0.003052,-100) [-100|100] "%" XXX
  SG_ Drehmoment_LLR__PD_Anteil_ : 24|16@1+ (0.003052,-100) [-100|100] "%" XXX
  SG_ Drehmoment_LLR__Luftpfad_ : 8|16@1+ (0.003052,-100) [-100|100] "%" XXX
- SG_ Frei_Master_1_1 : 4|4@1+ (1,0) [0|0] "" XXX
- SG_ LLR_ist_aktiv : 3|1@1+ (1,0) [0|0] "" XXX
- SG_ I_Anteil_der_LLR_aktiv : 2|1@1+ (1,0) [0|0] "" XXX
- SG_ PD_Anteil_der_LLR_aktiv : 1|1@1+ (1,0) [0|0] "" XXX
- SG_ LLR_Freigabe_nach_Start : 0|1@1+ (1,0) [0|0] "" XXX
+ SG_ Free_Master_1_1 : 4|4@1+ (1,0) [0|0] "" XXX
+ SG_ LLR_is_active : 3|1@1+ (1,0) [0|0] "" XXX
+ SG_ I_Proportion_Of_LLR_Active : 2|1@1+ (1,0) [0|0] "" XXX
+ SG_ PD_Share_Of_LLR_Active : 1|1@1+ (1,0) [0|0] "" XXX
+ SG_ LLR_Release_After_Start : 0|1@1+ (1,0) [0|0] "" XXX
 
 BO_ 1984 LWS_Kalibrierung: 2 XXX
  SG_ Frei_LWS_Kalibrierung_1_1 : 15|1@1+ (1,0) [0|0] "" XXX
