@@ -128,7 +128,7 @@ BO_ 1496 Installation_List_1: 8 XXX
  SG_ EZS___Kessy__Drive_ : 13|1@1+ (1,0) [0|0] "" XXX
  SG_ Brake_Booster : 12|1@1+ (1,0) [0|0] "" XXX
  SG_ Power_Steering : 11|1@1+ (1,0) [0|0] "" XXX
- SG_ Combi_Drive : 10|1@1+ (1,0) [0|0] "" XXX
+ SG_ Station_Wagon_Drive : 10|1@1+ (1,0) [0|0] "" XXX
  SG_ Injection_Pump : 9|1@1+ (1,0) [0|0] "" XXX
  SG_ Steering_Angle : 8|1@1+ (1,0) [0|0] "" XXX
  SG_ Four_Wheel : 7|1@1+ (1,0) [0|0] "" XXX
@@ -473,8 +473,8 @@ BO_ 1502 Steering_Aid_Error: 7 XXX
  SG_ Free_Steering_Aid_1_4 : 30|2@1+ (1,0) [0|0] "" XXX
  SG_ Encoder_For_Steering_Wheel_CAN_Comm : 29|1@1+ (1,0) [0|0] "" XXX
  SG_ Encoder_For_Steering_Angle_CAN_Comm : 28|1@1+ (1,0) [0|0] "" XXX
- SG_ Kombiinstr__k__CAN_Kommunik__sp : 27|1@1+ (1,0) [0|0] "" XXX
- SG_ Instrument_Cluster_K_CAN_Commuicate : 26|1@1+ (1,0) [0|0] "" XXX
+ SG_ Instrument_Cluster_K_CAN_Communicate_sp : 27|1@1+ (1,0) [0|0] "" XXX
+ SG_ Instrument_Cluster_K_CAN_Communicate : 26|1@1+ (1,0) [0|0] "" XXX
  SG_ Control_Unit_K_CAN_Communicate_S : 25|1@1+ (1,0) [0|0] "" XXX
  SG_ Control_Unit_No_CAN_Communicate : 24|1@1+ (1,0) [0|0] "" XXX
  SG_ Steering_Aid_Tension_Ks_According_To_Mas : 23|1@1+ (1,0) [0|0] "" XXX
@@ -501,63 +501,63 @@ BO_ 1502 Steering_Aid_Error: 7 XXX
  SG_ Voltage_Kl_30_Too_High__sp_ : 1|1@1+ (1,0) [0|0] "" XXX
  SG_ Voltage_Kl_30_Too_High_ : 0|1@1+ (1,0) [0|0] "" XXX
 
-BO_ 976 Lenkhilfe_1: 2 XXX
- SG_ Fehlerspeichereintrag__Lenkhilf : 15|1@1+ (1,0) [0|0] "" XXX
- SG_ Frei_Lenkhilfe_1_2 : 9|6@1+ (1,0) [0|0] "" XXX
- SG_ Fehlerlampe_Lenkhilfe : 8|1@1+ (1,0) [0|0] "" XXX
- SG_ Fehlerstatus_Lastinformation : 7|1@1+ (1,0) [0|0] "" XXX
- SG_ Lastinformation : 0|7@1+ (1,0) [0|127] "A" XXX
+BO_ 976 Steering_Aid_1: 2 XXX
+ SG_ Error_Memory_Entry_Steering_Aid : 15|1@1+ (1,0) [0|0] "" XXX
+ SG_ Free_Steering_Aid_1_2 : 9|6@1+ (1,0) [0|0] "" XXX
+ SG_ Error_Lamp_Steering_Aid : 8|1@1+ (1,0) [0|0] "" XXX
+ SG_ Error_Status_Load_Information : 7|1@1+ (1,0) [0|0] "" XXX
+ SG_ Load_Information : 0|7@1+ (1,0) [0|127] "A" XXX
 
-BO_ 1312 Kombi_3: 8 XXX
- SG_ Frei_Kombi_3_2 : 60|4@1+ (1,0) [0|0] "" XXX
- SG_ Kilometerstand : 40|20@1+ (1,0) [0|1000000] "km" XXX
- SG_ Fehlerstatus_Standzeit : 39|1@1+ (1,0) [0|0] "" XXX
- SG_ Standzeit : 24|15@1+ (4,0) [0|131068] "sec" XXX
- SG_ Frei_Kombi_3_1 : 20|4@1+ (1,0) [0|0] "" XXX
- SG_ Schluesselinfo : 16|4@1+ (1,0) [0|15] "" XXX
+BO_ 1312 Station_Wagon_3: 8 XXX
+ SG_ Free_Station_Wagon_3_2 : 60|4@1+ (1,0) [0|0] "" XXX
+ SG_ Mileage : 40|20@1+ (1,0) [0|1000000] "km" XXX
+ SG_ Error_Status_Service_Life : 39|1@1+ (1,0) [0|0] "" XXX
+ SG_ Lifetime : 24|15@1+ (4,0) [0|131068] "sec" XXX
+ SG_ Free_Station_Wagon_3_1 : 20|4@1+ (1,0) [0|0] "" XXX
+ SG_ Key_Info : 16|4@1+ (1,0) [0|15] "" XXX
 
-BO_ 1056 Kombi_2: 8 XXX
- SG_ Frei_Kombi_2_2 : 56|8@1+ (1,0) [0|0] "" XXX
- SG_ Fehlerstatus_Kl__58_s : 55|1@1+ (1,0) [0|0] "" XXX
- SG_ Klemme_58s__Kombi_2_ : 48|7@1+ (1,0) [0|100] "%" XXX
- SG_ Fehlerstatus_Kl__58_d : 47|1@1+ (1,0) [0|0] "" XXX
- SG_ Klemme_58d__Kombi_2_ : 40|7@1+ (1,0) [0|100] "%" XXX
- SG_ Kuehlmitteltemp__4_1__Kombi_2_ : 32|8@1+ (0.75,-48) [-48|142.5] "C" XXX
- SG_ Oeltemperatur_4_1 : 24|8@1+ (1,-60) [-60|194] "C" XXX
- SG_ Aussentemp__ungefiltert_4_1__Ko : 16|8@1+ (0.5,-50) [-50|77] "C" XXX
- SG_ Aussentemperatur_gefiltert : 8|8@1+ (0.5,-50) [-50|77] "C" XXX
- SG_ Fehlerspeichereintrag__Kombi_ : 7|1@1+ (1,0) [0|0] "" XXX
- SG_ Frei_Kombi_2_1 : 4|3@1+ (1,0) [0|0] "" XXX
- SG_ Anhaenger_erkannt : 3|1@1+ (1,0) [0|0] "" XXX
- SG_ Fehlerst__Kuehlmitteltemp__4_1 : 2|1@1+ (1,0) [0|0] "" XXX
- SG_ Fehlerstatus_Oeltemperatur_4_1 : 1|1@1+ (1,0) [0|0] "" XXX
- SG_ Fehlerstatus_Aussentemp__4_1 : 0|1@1+ (1,0) [0|0] "" XXX
+BO_ 1056 Station_Wagon_2: 8 XXX
+ SG_ Free_Station_Wagon_2_2 : 56|8@1+ (1,0) [0|0] "" XXX
+ SG_ Error_Status_Kl__58_S : 55|1@1+ (1,0) [0|0] "" XXX
+ SG_ Terminal_58s__Station_Wagon_2_ : 48|7@1+ (1,0) [0|100] "%" XXX
+ SG_ Error_Status_Kl__58_D : 47|1@1+ (1,0) [0|0] "" XXX
+ SG_ Terminal_58D__Station_Wagon_2_ : 40|7@1+ (1,0) [0|100] "%" XXX
+ SG_ Coolant_Temperature_4_1__Station_Wagon_2 : 32|8@1+ (0.75,-48) [-48|142.5] "C" XXX
+ SG_ Oil_Temperature_4_1 : 24|8@1+ (1,-60) [-60|194] "C" XXX
+ SG_ Outside_Temperature_Unfiltered_4_1__Ko : 16|8@1+ (0.5,-50) [-50|77] "C" XXX
+ SG_ Filtered_Outside_Temperature : 8|8@1+ (0.5,-50) [-50|77] "C" XXX
+ SG_ Fault_Memory_Entry__Station_Wagon_ : 7|1@1+ (1,0) [0|0] "" XXX
+ SG_ Free_Station_Wagon_2_1 : 4|3@1+ (1,0) [0|0] "" XXX
+ SG_ Followers_Recognized : 3|1@1+ (1,0) [0|0] "" XXX
+ SG_ Error_Coolant_Temperature__4_1 : 2|1@1+ (1,0) [0|0] "" XXX
+ SG_ Error_Status_Oil_Temperature_4_1 : 1|1@1+ (1,0) [0|0] "" XXX
+ SG_ Error_Status_Outside_Temperature__4_1 : 0|1@1+ (1,0) [0|0] "" XXX
 
-BO_ 800 Kombi_1: 8 XXX
- SG_ Frei_Kombi_1_3 : 56|8@1+ (1,0) [0|0] "" XXX
- SG_ Angezeigte_Geschwindigkeit : 46|10@1+ (0.32,0) [0|325] "km/h" XXX
- SG_ Blinker_rechts_4_1 : 45|1@1+ (1,0) [0|0] "" XXX
- SG_ Blinker_links_4_1 : 44|1@1+ (1,0) [0|0] "" XXX
- SG_ Gesetzte_Zeitluecke__Kombi_1_ : 43|1@1+ (1,0) [0|0] "" XXX
- SG_ ADR_Summer_abgeschaltet : 42|1@1+ (1,0) [0|0] "" XXX
- SG_ Frei_Kombi_1_2 : 40|2@1+ (1,0) [0|0] "" XXX
- SG_ Geschwindigkeit__Kombi_1_ : 25|15@1+ (0.01,0) [0|326] "km/h" XXX
- SG_ Signalquelle_Geschwindigkeit_4_ : 24|1@1+ (1,0) [0|0] "" XXX
- SG_ Tankwarnung : 23|1@1+ (1,0) [0|0] "" XXX
- SG_ Tankinhalt : 16|7@1+ (1,0) [0|126] "l" XXX
- SG_ Tankstop : 15|1@1+ (1,0) [0|0] "" XXX
- SG_ Frei_Kombi_1_7 : 12|3@1+ (1,0) [0|0] "" XXX
- SG_ Kombi_im_Stellgliedtest : 11|1@1+ (1,0) [0|0] "" XXX
- SG_ Ladekontroll_Lampe__Kombi_ : 10|1@1+ (1,0) [0|0] "" XXX
- SG_ Bremsinfo : 8|2@1+ (1,0) [0|0] "" XXX
- SG_ Vorgluehlampe__Kombi_1_ : 7|1@1+ (1,0) [0|0] "" XXX
- SG_ Tankwarnlampe : 6|1@1+ (1,0) [0|0] "" XXX
- SG_ Heissleuchten_Vorwarnung : 5|1@1+ (1,0) [0|0] "" XXX
- SG_ Kuehlmittelmangel : 4|1@1+ (1,0) [0|0] "" XXX
- SG_ Dynamische_Oeldruckwarnung : 3|1@1+ (1,0) [0|0] "" XXX
- SG_ Oeldruck : 2|1@1+ (1,0) [0|0] "" XXX
- SG_ Fehlerstatus_Tank : 1|1@1+ (1,0) [0|0] "" XXX
- SG_ Fahrertuer_4_1 : 0|1@1+ (1,0) [0|0] "" XXX
+BO_ 800 Station_Wagon_1: 8 XXX
+ SG_ Free_Station_Wagon_1_3 : 56|8@1+ (1,0) [0|0] "" XXX
+ SG_ Displayed_Speed : 46|10@1+ (0.32,0) [0|325] "km/h" XXX
+ SG_ Turn_Signal_Right_4_1 : 45|1@1+ (1,0) [0|0] "" XXX
+ SG_ Turn_Signal_Left : 44|1@1+ (1,0) [0|0] "" XXX
+ SG_ Set_Time_Gap__Station_Wagon_1_ : 43|1@1+ (1,0) [0|0] "" XXX
+ SG_ ADR_Buzzer_Switched_Off : 42|1@1+ (1,0) [0|0] "" XXX
+ SG_ Free_Station_Wagon_1_2 : 40|2@1+ (1,0) [0|0] "" XXX
+ SG_ Speed__Station_Wagon_1 : 25|15@1+ (0.01,0) [0|326] "km/h" XXX
+ SG_ Signal_Source_Speed_4_ : 24|1@1+ (1,0) [0|0] "" XXX
+ SG_ Tank_Warning : 23|1@1+ (1,0) [0|0] "" XXX
+ SG_ Tank_Capacity : 16|7@1+ (1,0) [0|126] "l" XXX
+ SG_ Refueling_Stop : 15|1@1+ (1,0) [0|0] "" XXX
+ SG_ Free_Station_Wagon_1_7 : 12|3@1+ (1,0) [0|0] "" XXX
+ SG_ Station_Wagon_In_The_Actuator_Test : 11|1@1+ (1,0) [0|0] "" XXX
+ SG_ Charging_Control_Lamp__Station_Wagon_ : 10|1@1+ (1,0) [0|0] "" XXX
+ SG_ Brake_Info : 8|2@1+ (1,0) [0|0] "" XXX
+ SG_ Glow_Lamp__Station_Wagon_1_ : 7|1@1+ (1,0) [0|0] "" XXX
+ SG_ Fuel_Warning_Lamp : 6|1@1+ (1,0) [0|0] "" XXX
+ SG_ Hot_Lights_Warning : 5|1@1+ (1,0) [0|0] "" XXX
+ SG_ Coolant_Shortage : 4|1@1+ (1,0) [0|0] "" XXX
+ SG_ Dynamic_Oil_Pressure_Warning : 3|1@1+ (1,0) [0|0] "" XXX
+ SG_ Oil_Pressure : 2|1@1+ (1,0) [0|0] "" XXX
+ SG_ Fault_Status_Tank : 1|1@1+ (1,0) [0|0] "" XXX
+ SG_ Driver_Door_4_1 : 0|1@1+ (1,0) [0|0] "" XXX
 
 BO_ 1504 Klima_1: 8 XXX
  SG_ Aussentemp__ungef__Sto_f__4_1 : 56|8@1+ (0.5,-50) [-50|77] "C" XXX
