@@ -666,7 +666,7 @@ BO_ 1088 Gear_1: 8 XXX
  SG_ Status_Gear_And_Converter_Shot : 1|1@1+ (1,0) [0|0] "" XXX
  SG_ Shift_Active__Gear_1_ : 0|1@1+ (1,0) [0|0] "" XXX
 
-BO_ 912 Gateway_Comfort_1: 6 XXX
+BO_ 912 Gateway_Komfort_1: 6 XXX
  SG_ Bremslicht_Anhaenger : 47|1@1+ (1,0) [0|0] "" XXX
  SG_ Anhaenger_erkannt_Gateway : 46|1@1+ (1,0) [0|0] "" XXX
  SG_ ECD_AAG_unplausibel : 45|1@1+ (1,0) [0|0] "" XXX
