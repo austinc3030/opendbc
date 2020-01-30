@@ -969,44 +969,44 @@ BO_ 864 ADR_System: 8 XXX
  SG_ S_Torque_Request_ADR : 0|8@1+ (0.39,0) [0|99] "MDI" XXX
 
 BO_ 608 ADR_2: 4 XXX
- SG_ Frei_ADR_2_2 : 27|5@1+ (1,0) [0|0] "" XXX
- SG_ Anforderung_Bremsdruck : 16|11@1+ (0.0625,0) [0|127.9375] "bar" XXX
- SG_ Frei_ADR_2_1 : 14|2@1+ (1,0) [0|0] "" XXX
- SG_ Relais_Test_Fehler : 13|1@1+ (1,0) [0|0] "" XXX
+ SG_ Free_ADR_2_2 : 27|5@1+ (1,0) [0|0] "" XXX
+ SG_ Requred_Brake_Pressure : 16|11@1+ (0.0625,0) [0|127.9375] "bar" XXX
+ SG_ Free_ADR_2_1 : 14|2@1+ (1,0) [0|0] "" XXX
+ SG_ Relay_Test_Error : 13|1@1+ (1,0) [0|0] "" XXX
  SG_ Standby : 12|1@1+ (1,0) [0|0] "" XXX
- SG_ Zaehler_ADR_2 : 8|4@1+ (1,0) [0|15] "" XXX
- SG_ Checksumme_ADR_2 : 0|8@1+ (1,0) [0|0] "" XXX
+ SG_ Counter_ADR_2 : 8|4@1+ (1,0) [0|15] "" XXX
+ SG_ Checksum_ADR_2 : 0|8@1+ (1,0) [0|0] "" XXX
 
 BO_ 1324 ADR_1: 8 XXX
- SG_ Checksumme_ADR_1 : 56|8@1+ (1,0) [0|0] "" XXX
- SG_ Frei_ADR_1_5 : 52|4@1+ (1,0) [0|0] "" XXX
- SG_ Zeitluecke_gemessen : 48|4@1+ (1,0) [0|15] "" XXX
- SG_ Fehlerspeichereintrag_ADR : 47|1@1+ (1,0) [0|0] "" XXX
- SG_ Reserviert_ADR_1_1 : 40|7@1+ (1,0) [0|0] "" XXX
- SG_ Anzeige_Sensor_blind : 39|1@1+ (1,0) [0|0] "" XXX
- SG_ Ansteuerung_optischer_Fahrerhin : 38|1@1+ (1,0) [0|0] "" XXX
- SG_ Ansteuerung_Gong_2 : 37|1@1+ (1,0) [0|0] "" XXX
- SG_ Ansteuerung_Gong_1 : 36|1@1+ (1,0) [0|0] "" XXX
- SG_ Schaltaufforderung : 34|2@1+ (1,0) [0|0] "" XXX
- SG_ Anzeige_Prioritaet : 33|1@1+ (1,0) [0|0] "" XXX
- SG_ Anzeige_Zeitluecke : 32|1@1+ (1,0) [0|0] "" XXX
- SG_ Wunschgeschwindigkeit : 24|8@1+ (1,0) [0|254] "km/h" XXX
- SG_ Objekt_erfasst : 22|2@1+ (1,0) [0|0] "" XXX
- SG_ Gesetzte_Zeitluecke__ADR_1_ : 18|4@1+ (1,0) [0|15] "" XXX
- SG_ Synchronisation_Bremsbooster : 17|1@1+ (1,0) [0|0] "" XXX
- SG_ Momentenanforderung_Freigabe : 16|1@1+ (1,0) [0|0] "" XXX
- SG_ Verhinderung_Schubabschaltung : 15|1@1+ (1,0) [0|0] "" XXX
+ SG_ Checksum_ADR_1 : 56|8@1+ (1,0) [0|0] "" XXX
+ SG_ Free_ADR_1_5 : 52|4@1+ (1,0) [0|0] "" XXX
+ SG_ Time_Gap_Measured : 48|4@1+ (1,0) [0|15] "" XXX
+ SG_ Error_Memory_Entry_ADR : 47|1@1+ (1,0) [0|0] "" XXX
+ SG_ Reserved_ADR_1_1 : 40|7@1+ (1,0) [0|0] "" XXX
+ SG_ Display_Sensor_Blind : 39|1@1+ (1,0) [0|0] "" XXX
+ SG_ Control_Of_Optical_Driver : 38|1@1+ (1,0) [0|0] "" XXX
+ SG_ Control_Gong_2 : 37|1@1+ (1,0) [0|0] "" XXX
+ SG_ Control_Gong_1 : 36|1@1+ (1,0) [0|0] "" XXX
+ SG_ Switching_Request : 34|2@1+ (1,0) [0|0] "" XXX
+ SG_ Display_Priority : 33|1@1+ (1,0) [0|0] "" XXX
+ SG_ Display_Time_Gap : 32|1@1+ (1,0) [0|0] "" XXX
+ SG_ Desired_Speed : 24|8@1+ (1,0) [0|254] "km/h" XXX
+ SG_ Object_Captured : 22|2@1+ (1,0) [0|0] "" XXX
+ SG_ Set_Time_Gap__ADR_1_ : 18|4@1+ (1,0) [0|15] "" XXX
+ SG_ Brake_Booster_Synchronization : 17|1@1+ (1,0) [0|0] "" XXX
+ SG_ Release_Torque_Request : 16|1@1+ (1,0) [0|0] "" XXX
+ SG_ Prevention_Of_Overrun_Fuel_Cut-Off : 15|1@1+ (1,0) [0|0] "" XXX
  SG_ Status_ADR_1 : 13|2@1+ (1,0) [0|0] "" XXX
- SG_ Fehler_ADR_1 : 12|1@1+ (1,0) [0|0] "" XXX
- SG_ Zaehler_ADR_1 : 8|4@1+ (1,0) [0|15] "" XXX
- SG_ Momentenanforderung_ADR : 0|8@1+ (0.39,0) [0|99] "MDI" XXX
+ SG_ Error_ADR_1 : 12|1@1+ (1,0) [0|0] "" XXX
+ SG_ Counter_ADR_1 : 8|4@1+ (1,0) [0|15] "" XXX
+ SG_ Torque_Request_ADR : 0|8@1+ (0.39,0) [0|99] "MDI" XXX
 
 BO_ 210 PQ_HCA: 8 XXX
  SG_ HCA_Status : 15|4@0+ (1,0) [0|15] "" XXX
  SG_ LM_Offset : 16|15@1+ (0.03052,0) [0|300] "nm" XXX
  SG_ LM_Offsign : 31|1@0+ (1,0) [0|1] "" XXX
- SG_ Vib_Amp : 36|4@1+ (0.5,0) [0|7.5] "Nm" XXX
- SG_ Vib_Freq : 32|4@1+ (4,0) [0|60] "Hz" XXX
+ SG_ Vibration_Amplitude : 36|4@1+ (0.5,0) [0|7.5] "Nm" XXX
+ SG_ Vibration_Frequency : 32|4@1+ (4,0) [0|60] "Hz" XXX
  SG_ COUNTER : 8|4@1+ (1,0) [0|15] "" XXX
  SG_ PQ_HCA_CHECKSUM : 0|8@1+ (1,0) [0|15] "" XXX
 
