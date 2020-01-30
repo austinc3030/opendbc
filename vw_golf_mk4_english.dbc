@@ -1013,49 +1013,49 @@ BO_ 210 PQ_HCA: 8 XXX
 BO_ 1490 VIN_1: 8 XXX
 
 BO_ 208 EPS_1: 8 XXX
- SG_ Counter1 : 8|4@1+ (1,0) [0|15] "" XXX
- SG_ Counter2 : 15|4@0+ (1,0) [0|15] "" XXX
+ SG_ Counter_1 : 8|4@1+ (1,0) [0|15] "" XXX
+ SG_ Counter_2 : 15|4@0+ (1,0) [0|15] "" XXX
  SG_ Driver_Torque_Sign : 26|1@1+ (1,0) [0|1] "" XXX
  SG_ Driver_Torque : 16|10@1+ (1,0) [0|1023] "" XXX
  SG_ Steering_Angle_Sign : 44|1@0+ (1,0) [0|1] "" XXX
  SG_ Checksum : 0|8@1+ (1,0) [0|255] "" XXX
  SG_ Steering_Angle : 32|12@1+ (0.15,0) [0|615] "" XXX
 
-BO_ 1550 Einheiten_1: 2 XXX
+BO_ 1550 Units_1: 2 XXX
  SG_ MFA_v_Signal_02 : 0|1@1+ (1,0) [0|1] "" XXX
 
 BO_ 872 ACC_XX01: 8 XXX
- SG_ XXAccelValue : 24|10@1+ (1,0) [0|255] "" XXX
- SG_ XXDecelGradient : 40|8@1+ (1,0) [0|255] "" XXX
- SG_ XXAccelGradient : 48|8@1+ (1,0) [0|255] "" XXX
+ SG_ XX_Acceleration_Value : 24|10@1+ (1,0) [0|255] "" XXX
+ SG_ XX_Deceleration_Gradient : 40|8@1+ (1,0) [0|255] "" XXX
+ SG_ XX_Accel_Gradient : 48|8@1+ (1,0) [0|255] "" XXX
 
 BO_ 1386 ACC_XX02: 8 XXX
- SG_ XXINV_CTR_OR_CKSUM : 4|4@1+ (1,0) [0|15] "" XXX
- SG_ XXUnk_Always_1 : 19|1@0+ (1,0) [0|1] "" XXX
- SG_ XXCOUNTER : 60|4@1+ (1,0) [0|15] "" XXX
+ SG_ XX_INV_CTR_OR_CKSUM : 4|4@1+ (1,0) [0|15] "" XXX
+ SG_ XX_Unk_Always_1 : 19|1@0+ (1,0) [0|1] "" XXX
+ SG_ XX_COUNTER : 60|4@1+ (1,0) [0|15] "" XXX
  SG_ Lead_Car_Distance : 40|4@1+ (1,0) [0|15] "" XXX
- SG_ XXCC_and_ACC_Status_Related : 0|4@1+ (1,0) [0|15] "" XXX
+ SG_ XX_CC_and_ACC_Status_Related : 0|4@1+ (1,0) [0|15] "" XXX
  SG_ CC_Set_Speed : 24|8@1+ (1,0) [0|255] "km/h" XXX
- SG_ XXUnk_CC_and_ACC_Info : 35|4@1+ (1,0) [0|15] "" XXX
- SG_ XXACC_Status : 8|2@1+ (1,0) [0|3] "" XXX
- SG_ XXCC_Status : 48|4@1+ (1,0) [0|15] "" XXX
+ SG_ XX_Unk_CC_and_ACC_Info : 35|4@1+ (1,0) [0|15] "" XXX
+ SG_ XX_ACC_Status : 8|2@1+ (1,0) [0|3] "" XXX
+ SG_ XX_CC_Status : 48|4@1+ (1,0) [0|15] "" XXX
 
 BO_ 1470 LDW_1: 8 XXX
- SG_ XXRight_Lane_Status : 0|2@1+ (1,0) [0|3] "" XXX
- SG_ XXLeft_Lane_Status : 2|2@1+ (1,0) [0|3] "" XXX
+ SG_ XX_Right_Lane_Status : 0|2@1+ (1,0) [0|3] "" XXX
+ SG_ XX_Left_Lane_Status : 2|2@1+ (1,0) [0|3] "" XXX
  SG_ XX_DLCorTLC1 : 24|8@1+ (1,0) [0|255] "" XXX
  SG_ XX_2DLCorTLC : 32|8@1+ (1,0) [0|15] "" XXX
- SG_ XXDLCTLC_Side : 14|1@0+ (1,0) [0|1] "" XXX
- SG_ XXLDW_SET_ME_1 : 18|1@0+ (1,0) [0|1] "" XXX
- SG_ Kombi_Lamp_Green : 20|1@0+ (1,0) [0|1] "" XXX
- SG_ Kombi_Lamp_Orange : 19|1@0+ (1,0) [0|1] "" XXX
- SG_ XXLDW_MAYBE_WARNING : 16|1@0+ (1,0) [0|1] "" XXX
+ SG_ XX_DLCTLC_Side : 14|1@0+ (1,0) [0|1] "" XXX
+ SG_ XX_LDW_SET_ME_1 : 18|1@0+ (1,0) [0|1] "" XXX
+ SG_ Station_Wagon_Lamp_Green : 20|1@0+ (1,0) [0|1] "" XXX
+ SG_ Station_wagon_Lamp_Orange : 19|1@0+ (1,0) [0|1] "" XXX
+ SG_ XX_LDW_MAYBE_WARNING : 16|1@0+ (1,0) [0|1] "" XXX
 
 BO_ 978 EPS_2: 8 XXX
  SG_ Rack_Healthy : 32|1@0+ (1,0) [0|1] "" XXX
- SG_ XXHCA_Various_States : 31|8@0+ (1,0) [0|255] "" XXX
- SG_ XXCounter1 : 0|4@1+ (1,0) [0|15] "" XXX
- SG_ XXCounter2 : 8|4@1+ (1,0) [0|15] "" XXX
+ SG_ XX_HCA_Various_States : 31|8@0+ (1,0) [0|255] "" XXX
+ SG_ XX_Counter_1 : 0|4@1+ (1,0) [0|15] "" XXX
+ SG_ XX_Counter_2 : 8|4@1+ (1,0) [0|15] "" XXX
  SG_ NEW_SIGNAL_1 : 16|4@1+ (1,0) [0|15] "" XXX
 
 
